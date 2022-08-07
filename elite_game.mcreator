@@ -1,0 +1,995 @@
+{
+  "mod_elements": [
+    {
+      "name": "TntRunBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_run_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TntRunBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_run_block_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EliteGames",
+      "type": "tab",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elite_games",
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "EndLineBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_line_block_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EndLineBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_line_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AntiTntRunBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_tnt_run_block_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AntiTntRunBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_tnt_run_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TntRunRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_run_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AntiTntRunBlockRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_tnt_run_block_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndLineBlockRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_line_block_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WitherSkeletonBossEntityDies",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_skeleton_boss_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "WitherSkeletonBoss",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_skeleton_boss",
+      "path": "~/Living Entities"
+    },
+    {
+      "name": "Bedrock",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "BedrockHelmetRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_helmet_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BedrockChestplateRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_chestplate_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BedrockLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_leggings_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BedrockBootRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_boot_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BedrockSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "BedrockShovel",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_shovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "BedrockAxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "BedrockPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "PickaxeRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BedrockMinerPickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_miner_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "BedrockSwordRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_sword_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BedrockShovelRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_shovel_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BedrockAxeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_axe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BedrockPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_pickaxe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BedrockMinerPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_miner_pickaxe_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MagicWandRightclicked",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wand_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MagicWand",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wand",
+      "path": "~/Tools"
+    },
+    {
+      "name": "TeleporterBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_block_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TeleporterBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HeavenFireUpdateTick",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_fire_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HeavenFireOut",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_fire_out",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EntityCollidesInHeavenFire",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_collides_in_heaven_fire",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HeavenFire",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_fire",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HeavenFireOverlayOff",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_fire_overlay_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HeavenFireOverlay",
+      "type": "overlay",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_fire_overlay",
+      "path": "~/Overlays"
+    },
+    {
+      "name": "HeavenFireOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_fire_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BackpackGUI",
+      "type": "gui",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack_gui",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "FillTanksButtonClicked",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fill_tanks_button_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Backpack",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack",
+      "path": "~/Items"
+    },
+    {
+      "name": "Unfilltankbuttonpressed",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfilltankbuttonpressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HeavenDimention",
+      "type": "dimension",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_dimention",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Dimentions"
+    },
+    {
+      "name": "HeavenGrass",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_grass",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HeavenWaterMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_water_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "HeavenWater",
+      "type": "fluid",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_water",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/Fluid"
+    },
+    {
+      "name": "BackpackRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HeavenDimensionRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_dimension_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BedrockUpgradeIngot",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_upgrade_ingot",
+      "path": "~/Items"
+    },
+    {
+      "name": "UpgradedBedrock",
+      "type": "armor",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_bedrock",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "UpgradedBedrockHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_bedrock_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "UpgradedBedrockBodyTickEvent",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_bedrock_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "UpgradedBedrockLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_bedrock_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "UpgradedBedrockBootsTickEvent",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_bedrock_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "UpgradedHelmet",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_helmet",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UpgradeChestplate",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_chestplate",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UpgradedLeggings",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_leggings",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UpgradedBoots",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_boots",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UpgradedIngotRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_ingot_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HeavenCobblestone",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_cobblestone",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HeavenStone",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_stone",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CorruptedArrow",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_arrow",
+      "path": "~/Items"
+    },
+    {
+      "name": "CorruptedBowProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_bow_projectile_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CorruptedBow",
+      "type": "rangeditem",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_bow",
+      "path": "~/Tools"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "heavenfireVariable",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.elite_game.tnt_run_block": "Tnt Run Summon Block",
+      "item.elite_game.upgraded_bedrock_boots": "Upgraded Bedrock Boots",
+      "item.elite_game.corrupted_arrow": "Corrupted Arrow",
+      "itemGroup.tabelite_games": "Elite Games",
+      "item.elite_game.upgraded_bedrock_leggings": "Upgraded Bedrock Leggings",
+      "item.elite_game.bedrock_shovel": "Bedrock Shovel",
+      "item.elite_game.bedrock_miner_pickaxe": "Bedrock Miner Pickaxe",
+      "item.elite_game.bedrock_upgrade_ingot": "Bedrock Upgrade Ingot",
+      "item.elite_game.corrupted_bow": "Corrupted Bow",
+      "item.elite_game.bedrock_boots": "Bedrock Boots",
+      "item.elite_game.backpack": "Backpack",
+      "entity.elite_game.wither_skeleton_boss": "Wither Skeleton Boss",
+      "item.elite_game.heaven_water_bucket": "Heaven Water Bucket",
+      "block.elite_game.anti_tnt_run_block": "Anti Tnt Run Block",
+      "block.elite_game.teleporter_block": "Teleporter Block",
+      "block.elite_game.heaven_fire": "Heaven Fire",
+      "item.elite_game.wither_skeleton_boss_spawn_egg": "Wither Skeleton Boss Spawn Egg",
+      "block.elite_game.end_line_block": "End Line Block",
+      "item.elite_game.bedrock_leggings": "Bedrock Leggings",
+      "item.elite_game.bedrock_chestplate": "Bedrock Chestplate",
+      "fluid.elite_game.heaven_water": "Heaven Water",
+      "block.elite_game.heaven_cobblestone": "Heaven Cobblestone",
+      "block.elite_game.heaven_stone": "Heaven Stone",
+      "item.elite_game.bedrock_axe": "Bedrock Axe",
+      "block.elite_game.heaven_water": "Heaven Water",
+      "item.elite_game.bedrock_helmet": "Bedrock Helmet",
+      "item.elite_game.upgraded_bedrock_helmet": "Upgraded Bedrock Helmet",
+      "block.elite_game.heaven_grass": "Heaven Grass Block",
+      "item.elite_game.upgraded_bedrock_chestplate": "Upgraded Bedrock Chestplate",
+      "item.elite_game.magic_wand": "Magic Wand",
+      "item.elite_game.bedrock_sword": "Bedrock Sword",
+      "item.elite_game.heaven_dimention": "Heaven Flint and Steel",
+      "item.elite_game.bedrock_pickaxe": "Bedrock Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Creative Tabs",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Living Entities",
+        "children": []
+      },
+      {
+        "name": "Overlays",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Dimentions",
+        "children": []
+      },
+      {
+        "name": "Fluid",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "elite_game",
+    "modName": "Elite Game",
+    "version": "1.0.0",
+    "description": "This Mod Adds Minigames that can be summoned Using Blocks",
+    "author": "CoolBodyGuy",
+    "websiteURL": "https://www.youtube.com/channel/UC-4IlCtXe08-QIq4r8o0DEw/featured",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "I Created Mod Using Block Bench and VS Code",
+    "modElementsPackage": "net.mcreator.elitegame",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
